@@ -1,0 +1,107 @@
+body{
+  background-color:darkgrey;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.container{
+  background-color:#53717a;
+  width:900px;
+  margin: 0 auto;
+  position: relative;
+  height: 880px;
+}
+
+.sub-container-1{
+  background-image:url(pic/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 900px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.sub-container-2{
+  height: 700px;
+  float: left;
+  margin-top: 8px;
+}
+
+.box-1{
+  background-color:green;
+  width:200px;
+  height: 40px;
+  float: left;
+  text-align: center;
+}
+.box-2{
+  background-color:yellow;
+  width:150px;
+  height: 40px;
+  float: left;
+  text-align: center;
+}
+.box-3{
+  background-color:blue;
+  width:150px;
+  height: 40px;
+  color: white;
+  float: left;
+  text-align: center;
+}
+
+.sub-container-3{
+  background-color:#ffffff;
+  width: 380px;
+  color: white;
+  float:left;
+  overflow: scroll;
+  height: 300px;
+  margin-top: 8px;
+  margin-left: 20px;
+}
+
+.sub-container-3 p img{
+  margin-right:10px;
+  margin-left: 10px;
+  float: left;
+}
+.sub-container-3 p{
+  font-family: 'Baloo Da', cursive;
+  color:black;
+  text-align: justify;
+}
+.sub-container-4{
+  background-color: white;
+  height: 500px;
+  float:left;
+  width: 500px;
+  position: absolute;
+  margin-right: 300px;
+  margin-top: 60px;
+}
+
+.sub-container-4_1{
+  width: 220px;
+  border-right:1px solid gold;
+  height: 350px;
+  margin-top:50px;
+  margin-bottom: 40px;
+  float: left;
+  margin-left: 20px;
+  text-align: left;
+  margin-right: 5px;
+}
+
+.sub-container-4_2{
+  width: 220px;
+  height: 350px;
+  margin-top:50px;
+  margin-bottom: 40px;
+  float: left;
+  margin-left: 10px;
+  text-align: justify;
+}
